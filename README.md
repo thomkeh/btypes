@@ -15,7 +15,7 @@ Requires Python 3.9+.
 pip install btypes
 ```
 
-## Example
+## Examples
 
 ```python
 from btypes import Int, List, Str
