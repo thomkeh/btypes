@@ -38,3 +38,10 @@ def print_type(x: Union[Bool, Str]) -> None:
         case Str():
             print("a string")
 ```
+
+## FAQs
+
+### Why require Python 3.9 as the minimum version?
+
+Because Python 3.9 introduced generic collections in the standard library: `list[int]`, `dict[str, float]`;
+and the whole point of `btypes` is that you can use the same identifier as constructor and as type annotation.
