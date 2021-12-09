@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "btypes"
-version = "4.0.1.dev0"
+version = "4.0.1-beta.1"
 description = "Aliases with correct capitalization for built-in Python types."
 authors = ["Thomas M <thomas5max@gmail.com>"]
 license = "Apache 2.0"
