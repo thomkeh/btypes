@@ -29,20 +29,13 @@ from typing import (
     Generic,
     Literal,
     NamedTuple,
-    NoReturn,
     Protocol,
     Text,
     TypedDict,
     Union,
 )
 
-from typing_extensions import (
-    Concatenate,
-    ParamSpec,
-    ParamSpecArgs,
-    ParamSpecKwargs,
-    TypeAlias,
-)
+from typing_extensions import TypeAlias
 
 __all__ = [
     "AbstractSet",
@@ -59,7 +52,6 @@ __all__ = [
     "ChainMap",
     "Collection",
     "Complex",
-    "Concatenate",
     "Container",
     "Coroutine",
     "Counter",
@@ -82,12 +74,8 @@ __all__ = [
     "MutableSequence",
     "MutableSet",
     "NamedTuple",
-    "NoReturn",
     "Object",
     "OrderedDict",
-    "ParamSpec",
-    "ParamSpecArgs",
-    "ParamSpecKwargs",
     "Protocol",
     "Reversible",
     "Sequence",
