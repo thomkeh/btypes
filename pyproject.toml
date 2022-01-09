@@ -22,8 +22,8 @@ repository="https://github.com/thomkeh/btypes"
 python = "^3.9"
 typing-extensions = "==4.0.1"
 
-[tool.poetry.group.dev.dependencies]
-mypy = "^0.910"
+[tool.poetry.dev-dependencies]
+mypy = "^0.931"
 black = "^21.11-beta.1"
 isort = "^5.10.1"
 

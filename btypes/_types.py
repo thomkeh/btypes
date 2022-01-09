@@ -93,25 +93,25 @@ __all__ = [
 ]
 
 # builtin types
-Bool: TypeAlias = bool
-ByteArray: TypeAlias = bytearray
-Bytes: TypeAlias = bytes
-Complex: TypeAlias = complex
-Dict: TypeAlias = dict
-Float: TypeAlias = float
-FrozenSet: TypeAlias = frozenset
-Int: TypeAlias = int
-List: TypeAlias = list
-Object: TypeAlias = object
-Set: TypeAlias = set
-Slice: TypeAlias = slice
-Str: TypeAlias = str
-Tuple: TypeAlias = tuple
-Type: TypeAlias = type
+Bool = bool
+ByteArray = bytearray
+Bytes = bytes
+Complex = complex
+Dict = dict
+Float = float
+FrozenSet = frozenset
+Int = int
+List = list
+Object = object
+Set = set
+Slice = slice
+Str = str
+Tuple = tuple
+Type = type
 
 # collections
-DefaultDict: TypeAlias = defaultdict
-Deque: TypeAlias = deque
+DefaultDict = defaultdict
+Deque = deque
 
 # abstract base classes
-AbstractSet: TypeAlias = abc.Set
+AbstractSet = abc.Set
