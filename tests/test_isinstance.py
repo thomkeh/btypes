@@ -1,5 +1,6 @@
+from typing import TypeVar
+from typing_extensions import TypeGuard
 import unittest
-from typing import TypeGuard, TypeVar
 
 from btypes import Any, Int, List, Str, Type
 
@@ -12,10 +13,10 @@ def isinstance_elements(lst: List[Any], t: Type[T]) -> TypeGuard[List[T]]:
 
 
 class TestIsinstance(unittest.TestCase):
-    def test_str(self):
+    def test_str(self) -> None:
         self.assertIsInstance("foo", Str)
 
-    def test_list(self):
+    def test_list(self) -> None:
         lst = [0, 2, 3, 5, -1]
         self.assertIsInstance(lst, List)
         self.assertTrue(isinstance_elements(lst, Int))
