@@ -1,5 +1,6 @@
+from typing import TypeVar
+from typing_extensions import TypeGuard
 import unittest
-from typing import TypeGuard, TypeVar
 
 from btypes import Any, Int, List, Str, Type
 

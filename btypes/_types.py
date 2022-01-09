@@ -32,9 +32,9 @@ from typing import (
     Protocol,
     Text,
     TypedDict,
+    TypeVar,
     Union,
 )
-
 from typing_extensions import TypeAlias
 
 __all__ = [
@@ -92,6 +92,8 @@ __all__ = [
     "ValuesView",
 ]
 
+T_co = TypeVar("T_co", covariant=True)
+
 # builtin types
 Bool = bool
 ByteArray = bytearray
@@ -107,7 +109,7 @@ Set = set
 Slice = slice
 Str = str
 Tuple = tuple
-Type = type
+Type: TypeAlias = type[T_co]
 
 # collections
 DefaultDict = defaultdict
