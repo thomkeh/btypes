@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "btypes"
-version = "4.0.1-beta.1"
+version = "4.1.1"
 description = "Aliases with correct capitalization for built-in Python types."
 authors = ["Thomas M <thomas5max@gmail.com>"]
 license = "Apache 2.0"
@@ -20,11 +20,11 @@ repository="https://github.com/thomkeh/btypes"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-typing-extensions = "==4.0.1"
+typing-extensions = "==4.1.1"
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.931"
-black = "^21.11-beta.1"
+black = "^22.0"
 isort = "^5.10.1"
 
 [tool.black]
