@@ -35,7 +35,7 @@ from typing import (
     TypeVar,
     Union,
 )
-from typing_extensions import TypeAlias
+from typing_extensions import Never, TypeAlias
 
 __all__ = [
     "AbstractSet",
@@ -74,6 +74,7 @@ __all__ = [
     "MutableSequence",
     "MutableSet",
     "NamedTuple",
+    "Never",
     "Object",
     "OrderedDict",
     "Protocol",
